@@ -11,6 +11,7 @@ struct RootView: View {
     @AppStorage("hasCompletedSetup")
     private var hasCompletedSetup = false
 
+    // To decide what screen to go to
     var body: some View {
         // HomeView if setup is done
         if hasCompletedSetup {

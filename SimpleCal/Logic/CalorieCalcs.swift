@@ -49,7 +49,7 @@ struct CalorieCalculator {
         let result = tdee - (deficits[lossPace] ?? 0) // Use ?? 0 just in case can't find value
 
         // Safe minimum calories (this is just so there is a safe limit for each gender)
-        // Will either return that value or the value calculated for them
+        // Will either return that value or the value calculated for them-- whichever is safer (max)
         let minimum = isMale ? 1500 : 1200
         return max(Int(result), minimum)
     }

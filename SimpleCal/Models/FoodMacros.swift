@@ -53,7 +53,10 @@ struct FoodItem: Identifiable {
     
     // Other chemicals
     let caffeine: Double?
+    // WILL ADD ON WITH OTHER STUFF I WANT TO TRACK
 }
+
+// I ALSO WANNA ADD HYDRATION
 
 enum MealType: String, CaseIterable, Identifiable {
     case breakfast = "Breakfast"

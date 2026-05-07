@@ -6,6 +6,7 @@
 
 import Foundation
 
+// For how active they are
 enum ActivityLevel: String, CaseIterable, Identifiable {
     // Each of the different activity cases
     case sedentary = "Sedentary"
@@ -33,6 +34,7 @@ enum ActivityLevel: String, CaseIterable, Identifiable {
     }
 }
 
+// For how fast their goal is
 enum LossPace: String, CaseIterable, Identifiable {
     // Each of the cases for how quick the weight loss should be
     case maintenanceLoss = "Maintenance"

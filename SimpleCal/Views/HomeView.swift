@@ -6,6 +6,7 @@
 
 import SwiftUI
 
+// WILL ADD TO THIS NEXT METHINKS
 struct HomeView: View {
     var body: some View {
         Text("This is the home page :)").font(Font.largeTitle)

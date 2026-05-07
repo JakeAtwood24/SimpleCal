@@ -11,7 +11,7 @@ import SwiftUI
 struct SimpleCalApp: App {
     var body: some Scene {
         WindowGroup {
-            RootView()
+            RootView() // Changed from ContentView()
         }
     }
 }

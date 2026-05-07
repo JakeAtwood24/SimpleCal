@@ -57,6 +57,7 @@ struct StartView: View {
     }
 
     var body: some View {
+        // Trying NavStack for the first time but def need to look more into it
         NavigationStack {
             Form {
                 // Personal Details Section
