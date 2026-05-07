@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		9E00D8C52FAC73AE004D1E42 /* SimpleCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E00D9922FAD4E6A004D1E42 /* SimpleCal.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SimpleCal.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -41,6 +42,13 @@
 			isa = PBXGroup;
 			children = (
 				9E00D8C52FAC73AE004D1E42 /* SimpleCal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E00D9932FAD4E6A004D1E42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,6 +105,12 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9E00D8C62FAC73AE004D1E42 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9E00D9932FAD4E6A004D1E42 /* Products */;
+					ProjectRef = 9E00D9922FAD4E6A004D1E42 /* SimpleCal.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9E00D8C42FAC73AE004D1E42 /* SimpleCal */,
