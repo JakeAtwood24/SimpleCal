@@ -43,4 +43,18 @@ enum LossPace: String, CaseIterable, Identifiable {
     case extremeLoss = "Extreme (2 lbs/week)"
 
     var id: String { rawValue }
+    
+    // Descriptions for each of the different goal speeds
+    var description: String {
+        switch self {
+        case .maintenanceLoss:
+            return "Maintenance"
+        case .mildLoss:
+            return "Mild (0.5 lbs/week)"
+        case .normalLoss:
+            return "Normal (1 lb/week)"
+        case .extremeLoss:
+            return "Extreme (2 lbs/week)"
+        }
+    }
 }
