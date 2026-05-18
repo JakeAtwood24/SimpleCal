@@ -58,7 +58,7 @@ struct FoodItem: Identifiable {
 
 // I ALSO WANNA ADD HYDRATION
 
-enum MealType: String, CaseIterable, Identifiable {
+enum MealType: String, CaseIterable, Identifiable, Codable {
     case breakfast = "Breakfast"
     case lunch = "Lunch"
     case dinner = "Dinner"

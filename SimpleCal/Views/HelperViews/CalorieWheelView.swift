@@ -47,7 +47,6 @@ struct CalorieWheelView: View {
                     ),
                     style: StrokeStyle(
                         lineWidth: 22,
-                        lineCap: .round // The way line caps work means that there's a weird green bit at the beginning that I need to fix... will get to it eventually.
                     )
                 )
                 .rotationEffect(.degrees(-90))
