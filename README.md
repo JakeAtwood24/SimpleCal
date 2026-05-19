@@ -1,6 +1,12 @@
+<div align="center">
+
+<img src="SimpleCal/Assets.xcassets/AppIcon.appiconset/SimpleCalVer1.png" width="128"/>
+
 # 🥦 SimpleCal
 
 An ad-free, user-friendly, and all-encompassing daily calorie tracker.
+
+</div>
 
 ---
 
